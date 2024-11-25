@@ -10,7 +10,6 @@ README che descrive il protocollo di comunicazione utilizzato per il collegament
 - **Server:** 
   -  `JOIN <username>`  (se username disponibile, invia globalmente)
   -  `KO user-not-available` (se username non disponibile, invia solo al client)
-  -  `KO session-timeout` (scaduta sessione di attesa, dopo un timer di 1 minuto. Invia solo al client)
 
 ### Utente Vuole Cambiare Nickname
 
